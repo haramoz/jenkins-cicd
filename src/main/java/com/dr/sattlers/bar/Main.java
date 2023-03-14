@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 
 public class Main {
     public static void main(String[] args) {
-        futureMethod(2);
+        futureMethod(19999);
         isGreater(1,2);
     }
 
@@ -24,10 +24,6 @@ public class Main {
         int result = 0;
         try {
 
-            /*while(!future.isDone()) {
-                System.out.println("Processing...");
-                Thread.sleep(300);
-            }*/
             result = future.get(7, TimeUnit.SECONDS);
             System.out.println("Result: " + result);
         } catch (TimeoutException e) {
