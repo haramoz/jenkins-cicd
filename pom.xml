@@ -48,6 +48,8 @@
                 </executions>
             </plugin>
         </plugins>
+
+        <finalName>docker-jenkins-java-jar</finalName>
     </build>
 
 
