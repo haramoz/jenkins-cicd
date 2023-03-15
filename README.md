@@ -12,6 +12,7 @@ Here the snapshot will be repackaged and tagged docker-jenkins-java-jar (because
 <pre> docker run docker-jenkins-java-jar:latest </pre>
 
 ### Jenkins Docker plugins
+Installed Docker Pipeline. Manage Nodes and Clouds (under managa Jenkins) -> add a cloud -> added Docker there as cloud 
 
 ### Docker creds
 I have a Docker Hub account, created new access token. Adding the creds in jenkins: 
